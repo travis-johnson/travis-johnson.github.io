@@ -112,7 +112,13 @@ img {
 }
 
 .gap {
-  min-height: 500px;
+  position: relative;
+  min-height: 660px;
+}
+
+.gap .row {
+  position: absolute;
+  bottom: 0;
 }
 
 #contact h2 {
