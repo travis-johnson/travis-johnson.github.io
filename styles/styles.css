@@ -239,6 +239,9 @@ img {
   .mobile_nav h3 {
     margin: 0 2em;
   }
+  .gap .row {
+    position: relative;
+  }
 }
 
 @media screen and (min-width: 768px) {

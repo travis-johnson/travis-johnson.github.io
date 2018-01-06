@@ -254,6 +254,11 @@ img {
             margin: 0 2em;
         }
     }
+    .gap {
+        .row {
+            position: relative;
+        }
+    }
 }
 
 @media screen and(min-width:768px) {
