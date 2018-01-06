@@ -111,6 +111,10 @@ img {
   width: 50px;
 }
 
+.gap {
+  min-height: 500px;
+}
+
 #contact h2 {
   font-size: 2.5rem;
   background: #16222A;
