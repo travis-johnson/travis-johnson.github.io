@@ -119,14 +119,10 @@ img {
     img {
         width: 50px;
     }
-}
-
-.gap {
-    position: relative;
-    min-height: 660px;
-    .row {
-        position: absolute;
-        bottom: 0;
+    span {
+        font-size: 1.2em;
+        font-weight: 800;
+        padding: 0 8px;
     }
 }
 
@@ -240,6 +236,7 @@ img {
             h1,
             h2 {
                 font-size: 1.6rem;
+                color: #fff;
             }
         }
     }
