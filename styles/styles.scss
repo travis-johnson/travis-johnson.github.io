@@ -44,6 +44,7 @@ img {
         h2 {
             font-weight: 300;
             margin: 0;
+            color: #fff;
         }
     }
     a {
@@ -230,19 +231,16 @@ img {
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (min-width:600px) {
     .header {
         .col-6 {
             h1,
             h2 {
                 font-size: 1.6rem;
-                color: #fff;
+                color: #333;
             }
         }
     }
-}
-
-@media screen and (min-width:600px) {
     nav {
         height: 15%;
     }

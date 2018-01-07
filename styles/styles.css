@@ -44,6 +44,7 @@ img {
 .header .col-6 h2 {
   font-weight: 300;
   margin: 0;
+  color: #fff;
 }
 
 .header a h2 {
@@ -221,15 +222,12 @@ img {
   padding: 0 5px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 600px) {
   .header .col-6 h1,
   .header .col-6 h2 {
     font-size: 1.6rem;
-    color: #fff;
+    color: #333;
   }
-}
-
-@media screen and (min-width: 600px) {
   nav {
     height: 15%;
   }
