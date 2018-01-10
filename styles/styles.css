@@ -40,6 +40,10 @@ img {
   color: #333;
 }
 
+.header .col-6 h2 {
+  font-size: 1.5em;
+}
+
 .header .col-6 h1,
 .header .col-6 h2 {
   font-weight: 300;
@@ -65,11 +69,12 @@ img {
 }
 
 .mobile_nav a:nth-of-type(even) {
-  float: right;
+  position: absolute;
+  right: 0;
 }
 
 .about p {
-  font-size: 1.125rem;
+  font-size: .8em;
 }
 
 #projects p {

@@ -40,6 +40,9 @@ img {
         color: #333;
     }
     .col-6 {
+        h2 {
+            font-size: 1.5em;
+        }
         h1,
         h2 {
             font-weight: 300;
@@ -65,14 +68,15 @@ img {
     a {
         padding: 0 20px;
         &:nth-of-type(even) {
-            float: right;
+            position: absolute;
+            right: 0;
         }
     }
 }
 
 .about {
     p {
-        font-size: 1.125rem;
+        font-size: .8em;
     }
 }
 
